@@ -1,4 +1,10 @@
 #!/usr/bin/perl
+# --
+# Copyright (C) 2017 by Jens Bothe
+# --
+# This software comes with ABSOLUTELY NO WARRANTY.
+#
+# Copy this file to /opt/otrs/bin/cgi-bin
 use strict;
 use warnings;
 use CGI qw(:standard);
