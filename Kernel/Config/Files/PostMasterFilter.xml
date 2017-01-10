@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<otrs_config version="1.0" init="Application">
+    <ConfigItem Name="PostMaster::PreFilterModule###40-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###41-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###42-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###43-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###44-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###45-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###46-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###47-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###48-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+    <ConfigItem Name="PostMaster::PreFilterModule###49-CMD" Required="0" Valid="0">
+        <Description Translatable="1">CMD example setup. Ignores emails where external CMD returns some output on STDOUT (email will be piped into STDIN of some.bin).</Description>
+        <Group>Ticket</Group>
+        <SubGroup>Core::PostMaster</SubGroup>
+        <Setting>
+            <Hash>
+                <Item Key="Module">Kernel::System::PostMaster::Filter::CMD</Item>
+                <Item Key="CMD">/usr/bin/some.bin</Item>
+                <Item Key="Set">
+                    <Hash>
+                        <Item Key="X-OTRS-Ignore">yes</Item>
+                    </Hash>
+                </Item>
+            </Hash>
+        </Setting>
+    </ConfigItem>
+</otrs_config>
