@@ -24,3 +24,7 @@ Additional RSS Feeds in the Dashboard
 -------------------------------------
 [Blog entry](https://blog.otrs.com/2010/08/01/even-more-rss-feeds-in-sysconfig/)
 - Kernel/Config/Files/CustomRSS.xml
+
+Basic Installation of OTRS (Ubuntu) for lazy admins:
+----------------------------------------------------
+- otrs_install_ubuntu.sh
