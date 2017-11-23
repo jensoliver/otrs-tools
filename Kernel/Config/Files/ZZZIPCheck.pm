@@ -5,6 +5,13 @@
 #
 # Copy this file to /opt/otrs/Kernel/Config/Files
 # 
+package Kernel::Config::Files::ZZZIPCheck;
+use strict;
+use warnings;
+no warnings 'redefine'; ## no critic
+use utf8;
+sub Load {
+    my ($File, $Self) = @_;
 $Self->{'Ticket::Frontend::ZoomCollectMetaFilters'}->{'IP-Blacklist'} =  {
   'Meta' => {
     'Name' => 'IP-Blacklist',
@@ -16,3 +23,6 @@ $Self->{'Ticket::Frontend::ZoomCollectMetaFilters'}->{'IP-Blacklist'} =  {
     '(\\d{1,3}\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3}))'
   ]
 };
+    return;
+}
+1;
