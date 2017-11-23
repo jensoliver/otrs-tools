@@ -28,3 +28,8 @@ Additional RSS Feeds in the Dashboard
 Basic Installation of OTRS (Ubuntu) for lazy admins:
 ----------------------------------------------------
 - otrs_install_ubuntu.sh
+
+GIT post receive (or post merge) hook
+----------------------------------------------------
+- post-receive.pl
+Needs to be copied to .git/hooks/post-receive.pl and symlinked to post-receive and/or post-merge
